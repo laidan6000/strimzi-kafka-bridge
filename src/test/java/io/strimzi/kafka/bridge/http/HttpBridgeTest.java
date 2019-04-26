@@ -1187,6 +1187,5 @@ public class HttpBridgeTest extends KafkaClusterTestBase {
                     context.assertEquals("Consumer instance not found", status);
                     commitAsync.complete();
                 });
-        commitAsync.await();
     }
 }
