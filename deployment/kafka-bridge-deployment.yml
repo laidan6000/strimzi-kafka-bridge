@@ -18,7 +18,7 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: KAFKA_BOOTSTRAP_SERVERS
-          value: my-cluster-kafka-bootstrap:9092
+          value: daniel-kafka-cluster-kafka-bootstrap:9092
         - name: AMQP_MODE
           value: SERVER
         - name: AMQP_PORT
