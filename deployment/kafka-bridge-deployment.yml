@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: strimzi-kafka-bridge
-        image: strimzi/kafka-bridge:latest
+        image: adamcattermole/kafka-bridge:latest
         imagePullPolicy: IfNotPresent
         env:
         - name: KAFKA_BOOTSTRAP_SERVERS
